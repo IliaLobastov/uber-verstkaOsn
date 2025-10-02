@@ -6,7 +6,7 @@ export default function BottomNavbar() {
     <div className="bottom-header">
       <div className="bottom-header-container">
         <div className="logo">
-          <img src='/logo.png' alt="uber" />
+          <img src='./logo.png' alt="uber" />
           <div>Официальный партнер Uber в Москве</div>
         </div>
 
