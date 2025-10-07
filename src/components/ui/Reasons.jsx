@@ -1,5 +1,5 @@
 import React from 'react'
-import './ReasonCard.css'
+import './Sections.css'
 import ReasonCard from './ReasonCard'
 
 export default function Reasons({ reasons }) {

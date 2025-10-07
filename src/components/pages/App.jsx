@@ -1,4 +1,5 @@
 import BottomNavbar from '../ui/BottomNavbar'
+import MobileSection from '../ui/MobileSection'
 import Reasons from '../ui/Reasons'
 import SectionOne from '../ui/SectionOne'
 
@@ -72,6 +73,53 @@ function App() {
     gridArea: 'box-8'
   }
 ]
+const mobileSections = [
+    {
+      id: 1,
+      title: "ОФОРМЛЕНИЕ ЗАКАЗА ОДНИМ КАСАНИЕМ",
+      image: "/Карточка1.png",
+      alt: "order",
+      gridArea: "box-1"
+    },
+    {
+      id: 2,
+      title: "НАДЕЖНАЯ ПОДАЧА",
+      image: "/Карточка2.png",
+      alt: "arrival",
+      gridArea: "box-2"
+    },
+    {
+      id: 3,
+      title: "ПРОЗРАЧНЫЕ ЦЕНЫ",
+      image: "/Карточка3.png",
+      alt: "prices",
+      gridArea: "box-3"
+    },
+    {
+      id: 4,
+      title: "БЕЗНАЛИЧНАЯ ОПЛАТА",
+      image: "/Карточка4.png",
+      alt: "payment",
+      gridArea: "box-4"
+    },
+    {
+      id: 5,
+      title: "ОБРАТНАЯ СВЯЗЬ",
+      image: "/Карточка5.png",
+      alt: "feedback",
+      gridArea: "box-5"
+    },
+    {
+      id: 6,
+      title: "РАЗДЕЛИТЬ СТОИМОСТЬ ПОЕЗДКИ",
+      image: "/Карточка6.png",
+      alt: "split",
+      gridArea: "box-6"
+    }
+  ]
+  
+
+
   return (
     <>
       <div className="app-container">
@@ -80,7 +128,7 @@ function App() {
         <SectionOne />
       </div>
       <Reasons reasons={reasons}/>
-      
+      <MobileSection  mobileSections={mobileSections}/>
     </>
   )
 }
